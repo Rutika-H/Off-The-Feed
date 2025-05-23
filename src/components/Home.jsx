@@ -4,7 +4,7 @@ function Home(){
     
    <div className="home">
       <video autoPlay loop muted playsInline className="background-video">
-        <source src="src/assets/cat sleep hd.mp4" type="video/mp4" />
+        <source src="/cat-sleep-hd.mp4" type="video/mp4" />
       </video>
 
       <div >
