@@ -10,14 +10,14 @@
 
 .home {
   position: relative;
-  min-height: 500px; /* Changed from height to min-height */
-  overflow: hidden; /* Changed from hidden to visible */
+  min-height: 500px;
+  overflow: hidden;
   color: white;
   text-align: center;
 }
 
 .home-content {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(25, 58, 99, 0.5);
   position: relative;
   border-radius: 5rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -30,4 +30,32 @@
   top: 40px;
   max-width: 400px;
 }
+.about-me{ background-color: rgba(62, 6, 100, 0.374);
+  position: relative;
+  border-radius: 5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px; 
+  z-index: 1;
+  padding: 1rem 0rem;
+  margin-top: 10px;
+  text-align: center;
+  margin: 10px auto;
+  top: 40px;
+  max-width: 400px;
 
+}
+.socials{
+    background-color: rgba(62, 6, 100, 0.374);
+  position: relative;
+  border-radius: 5rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; 
+  font-style: italic;
+  z-index: 1;
+  color: rgb(143, 220, 248);
+  margin-top: 10px;
+  text-align: center;
+  margin: 10px auto;
+  top: 40px;
+  max-width: 500px;
+}
