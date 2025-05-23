@@ -1,0 +1,41 @@
+
+
+.cards {
+  background-color:  rgb(83, 46, 104);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 30px;
+  font-family: pixels;
+  margin: 10px;
+  min-width: 400px;
+  flex: 1 1 200px;
+   transition: transform  0.2s;
+ 
+}
+.card{
+  background-color:rgba(224, 187, 218, 0.677);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  min-width: 400px;
+  flex: 1 1 200px;
+  font-family: pixels;
+   transition: transform 0.2s;
+}
+.parent{
+     list-style:none ;
+   display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;     
+  gap: 1rem;          
+  justify-content: center;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.cards:hover {
+  transform: translateY(-10px);
+}

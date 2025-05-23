@@ -1,0 +1,33 @@
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1; /* So content appears on top */
+}
+
+.home {
+  position: relative;
+  min-height: 500px; /* Changed from height to min-height */
+  overflow: hidden; /* Changed from hidden to visible */
+  color: white;
+  text-align: center;
+}
+
+.home-content {
+  background-color: rgba(0,0,0,0.5);
+  position: relative;
+  border-radius: 5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px; 
+  z-index: 1;
+  padding: 1rem 0rem;
+  margin-top: 10px;
+  text-align: center;
+  margin: 10px auto;
+  top: 40px;
+  max-width: 400px;
+}
+

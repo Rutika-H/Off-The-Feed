@@ -1,0 +1,26 @@
+.Movies {
+  padding:0;
+  width: 100%;
+  min-height: 100vh; 
+  box-sizing: border-box;
+}
+
+
+
+
+@media (max-width: 639px) {
+  .Movies {
+    padding: 1rem 0;
+  }
+
+  
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}

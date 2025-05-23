@@ -1,0 +1,60 @@
+.Favorites {
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+
+
+.favorites-empty {
+  text-align: center;
+  padding: 2rem 2rem;
+  background-color: rgba(255, 255, 255, 0.158);
+  margin: 0rem auto;
+  
+  max-width: 800px;
+}
+
+.favorites-empty h2 {
+  margin-bottom: 1rem;
+  font-family:pixels;
+  font-size: 2rem;
+  color: #000000;
+  background-color: rgba(224, 187, 218, 0.677);
+  padding:5rem;
+  border-radius: 30px;
+  max-width: 400x;
+}
+
+
+.favorites-empty p {
+  color: #f7f2f8;
+  font-size: 1.6rem;
+  font-family: pixels;
+  line-height: 1.6;
+   background-color: rgb(83, 46, 104);
+   padding: 20px;
+   border-radius: 30px;
+   
+}
+
+
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1; 
+}
+
+.container {
+  position: relative;
+  height: 0px;
+  overflow: hidden;
+  color: white;
+  }
+  
+
