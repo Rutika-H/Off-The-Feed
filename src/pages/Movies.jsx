@@ -17,7 +17,7 @@ function Movies(){
             ref:"https://www.imdb.com/title/tt9426210/"
         },
         {id:4, title:"Free Guy", release_date:"2021",
-            url:"/covers/free-guy final.jpg",
+            url:"/covers/free-guy-final.jpg",
             ref:"https://www.imdb.com/title/tt6264654/"
         },
         {id:5, title:"Inception", release_date:"2010",
@@ -25,7 +25,7 @@ function Movies(){
             ref:"https://www.imdb.com/title/tt1375666/"
         },
         {id:6, title:"Oppenheimer", release_date:"2023",
-            url:"/covers/oppenheimer final.webp",
+            url:"/covers/oppenheimer-final.webp",
             ref:"https://www.imdb.com/title/tt15398776/"
         },
          {id:7, title:"Demon Slayer:Mugen Train", release_date:"2019",
