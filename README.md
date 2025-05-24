@@ -1,7 +1,5 @@
-# React + Vite
-I used React framework with vite to work on this project
-# Project Name
-OFF THE FEED
+
+# OFF THE FEED
 
 ## Description
 So i've logged out of  Instagram for atleast a month now,and obviously i was bored to oblivion at first....but i found out reading books and watching some series or playing games isn't all that bad,so initially my idea was to build a one stop solution for the boredom.Like imdb helps you choosing a movies,this will help you choose,a movie,a book,a game or some random act.I have not  added page for games and books yet,as the layout is similar to movies page,and due to time constraints,also this website is to present myself with my skills...so redundancy wasn't going to help.but those pages will be up for use in some days and it will be connected to api for diverse options to choose between.
@@ -22,12 +20,13 @@ Favorites: Static page again<br/>
 In any terminal<br/>
 1.Start the project<br/>
 2.Run these commands<br/>
-  cd frontend<br/>
+  git clone https://github.com/Rutika-H/Off-The-Feed<br/>
+  cd OFF-THE-FEED<br/>
   npm install<br/>
   npm start<br/>
 3.It will open in http://localhost:5173/ this local server
 now You should be able to view the homepage,use the navbar to surf between pages.<br/>
        
-       OR 
+OR
 
  I've deployed the website through vercel,so you can directly visit it through my  git repo   
