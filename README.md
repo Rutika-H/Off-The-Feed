@@ -9,9 +9,9 @@ So i've logged out of  Instagram for atleast a month now,and obviously i was bor
 Pages:
 Home   :  My intro,clickable link to follow me on instagram
 
-Movies : </> Bunch of movies,
-         </> Title of the movie takes you to the respective imdb page,
-         </> You can mark it by clicking on heart in top right corner,
+Movies : </> Bunch of movies
+         </> Title of the movie takes you to the respective imdb page
+         </> You can mark it by clicking on heart in top right corner
          </> Color of the movie title changes to white on visiting,hover will be green
 
 others :  Static page
