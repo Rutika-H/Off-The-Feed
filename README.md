@@ -28,6 +28,6 @@ In any terminal<br/>
 3.It will open in http://localhost:5173/ this local server
 now You should be able to view the homepage,use the navbar to surf between pages.<br/>
        
-       OR <br/>
+       OR 
 
  I've deployed the website through vercel,so you can directly visit it through my  git repo   
