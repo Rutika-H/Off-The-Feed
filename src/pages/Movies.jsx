@@ -35,6 +35,10 @@ function Movies(){
         {id:8, title:"Harry Potter and the Deathly Hallows Part-2", release_date:"2011",
             url:"/covers/harry-potter.jpg",
             ref:"https://www.imdb.com/title/tt1201607/"
+        },
+        {id:9, title:"Final destination", release_date:"2011",
+            url:"/covers/harry-potter.jpg",
+            ref:"https://www.imdb.com/title/tt1201607/"
         }
     ]
     return <main>

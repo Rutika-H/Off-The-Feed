@@ -23,7 +23,7 @@ function Home(){
        <h4 className="socials">Click this to follow me on Instagram!❤️ </h4>
       </a>
     </div>
-     
+    
        </div>
 
     </main>)

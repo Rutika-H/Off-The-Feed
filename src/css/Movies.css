@@ -8,7 +8,7 @@
 
 
 
-@media (max-width: 639px) {
+@media (max-width: 744px) {
   .Movies {
     padding: 1rem 0;
   }
@@ -23,4 +23,5 @@
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
+  justify-content: center;
 }

@@ -1,12 +1,14 @@
+
 .navbar {
   background-color: rgba(0,0,0,0.6);
   display: flex;
- 
+ position:relative;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   box-shadow: 0 2px 4px rgba(74, 73, 73, 0.1);
-  padding: 2 rem;
-   width: 100%;
+  padding: 1 rem;
+  
+  
 }
 
 .navbar-brand {
@@ -16,13 +18,15 @@
    flex-direction: row;  
   flex-wrap: nowrap;  
   align-items: stretch;
- gap: 0rem
-  
+ gap: 0rem;
+
 }
 
 .navbar-links {
   display: flex;
   gap: 3rem;
+ flex-grow:0.5;
+   flex-wrap: nowrap;
 }
 
 
@@ -53,3 +57,71 @@
   background-color: rgba(240, 238, 244, 0.2);
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1;
+ 
+}
+
+.hamburger-line {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 3px 0;
+  transition: 0.3s;
+  transform-origin: center;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-links {
+    position: fixed;
+    top: 0;
+    right: -50%;
+    width: 30%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.49);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    transition: right 0.5s ease;
+    z-index: 1000;
+  }
+
+  .navbar-links.active {
+    right: 0;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+  }
+
+  .nav-link:hover {
+    background-color: rgba(240, 238, 244, 0.2);
+  }
+
+  .nav-link.active {
+    background-color: rgba(125, 125, 191, 0.8);
+  }
+}
